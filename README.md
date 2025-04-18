@@ -1,1 +1,9 @@
-# Classify-Customer-Churn
+In today's highly competitive telecom industry, customer retention is a major priority. One of the key challenges companies face is understanding which customers are likely to discontinue their services—a phenomenon known as customer churn. If companies can predict which users are at risk of churning, they can take timely action such as offering incentives, improving service quality, or providing personalized support to retain those customers.
+This project focuses on building a classification model to predict customer churn using historical telecom customer data. The dataset contains a variety of features related to customer behavior and demographics, such as contract type, payment method, internet usage, tenure, and service subscriptions. By analyzing these features, the goal is to train a machine learning model that accurately identifies customers who are likely to leave the company.
+We chose a Random Forest Classifier for this task due to its ability to handle both numerical and categorical data, its robustness to overfitting, and its generally strong performance on classification problems.
+Once the model is trained, we assess its performance using several standard evaluation metrics, including:
+•	Accuracy – the overall correctness of the model.
+•	Precision – the proportion of correctly identified positive churns among all predicted churns.
+•	Recall – the proportion of actual churns that were correctly identified.
+To visualize the model’s performance, we also generate a confusion matrix heatmap, which helps in understanding the distribution of true positives, false positives, true negatives, and false negatives.
+The insights from this project can support data-driven strategies in customer relationship management (CRM) and improve business decision-making in the telecom sector.
